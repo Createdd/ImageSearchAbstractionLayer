@@ -26,5 +26,6 @@ exports.getImage = (search, page=1) => {
         resolve(body);
       }//check if the response is ok
     }//function getPics
+    request(options, getPics);
   });//return new Promise
 };//use an export function to use it in the route file and set it's parameters to the search term and pagination
