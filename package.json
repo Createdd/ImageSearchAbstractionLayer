@@ -1,0 +1,29 @@
+{
+  "name": "imagesearchapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "start:dev": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDCreationStudios/ImageSearchAbstractionLayer.git"
+  },
+  "author": "Daniel Deutsch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DDCreationStudios/ImageSearchAbstractionLayer/issues"
+  },
+  "homepage": "https://github.com/DDCreationStudios/ImageSearchAbstractionLayer#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.7.1",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "dotenv": "^2.0.0"
+  }
+}
