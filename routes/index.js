@@ -13,4 +13,4 @@ router.get("/latest", (req,res)=>{
 router.get("/search", (req,res)=>{
 
 });
-module.exports=router;
+module.exports=router;//export the router variable
