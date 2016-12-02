@@ -12,3 +12,4 @@ app.use('/', routes);//use route middleware
 if(process.env.NODE_ENV !== "production"){
   require("dotenv").config();
 }
+const db=require("./config/db");//load the db connection
