@@ -9,3 +9,6 @@ const server=app.listen(port,()=>{
 });
 const routes = require('./routes/index');//add routing file
 app.use('/', routes);//use route middleware
+if(process.env.NODE_ENV !== "production"){
+  require("dotenv").config();
+}
