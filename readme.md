@@ -21,24 +21,27 @@ https://ddcreationstudios-imagesearch.herokuapp.com/
 ```js
 https://ddcreationstudios-imagesearch.herokuapp.com/search/code
 https://ddcreationstudios-imagesearch.herokuapp.com/search/code?offset=2
-https://ddcreationstudios-imagesearch.herokuapp.com/search/latest
+https://ddcreationstudios-imagesearch.herokuapp.com/latest
 ```
 
 ## Example creation output:
 
 ```js
+Search:
 {
 "url": "http://i.imgur.com/1k25qTQ.gif",
 "snippet": "A magical way to bypass the secret source code for Android phones and without the need to format mobile phone",
 "context": "https://imgur.com/1k25qTQ"
 }
+```
+```js
+Latest:
 {
 "term": "code",
 "when": "2016-12-03T10:14:34.971Z"
 },
 
 ```
-
 
 
 #####Thx to Michael Lefkowitz for providing help
