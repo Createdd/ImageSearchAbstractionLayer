@@ -1,13 +1,10 @@
-/* jshint node: true */
-/*jshint esversion: 6 */
-
 const express=require("express");
 const router=express.Router();//establish routing middleware
 const imgur=require("../services/imgur");//load the imgur.js file
 const History=require("../models/history");//load the history file with the mongoose model
 
 router.get("/", (req,res)=>{
-  res.send("it works");
+  res.render("index");
 });
 router.get("/latest", (req,res)=>{
   History.find({},"term when -_id").sort("-when").limit(10).then(results =>{
