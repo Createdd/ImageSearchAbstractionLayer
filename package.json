@@ -1,7 +1,9 @@
 {
   "name": "imagesearchapi",
   "version": "1.0.0",
-  "description": "",
+  "engines": {
+    "node": "7.0.0"
+  },
   "main": "app.js",
   "scripts": {
     "start": "node app",

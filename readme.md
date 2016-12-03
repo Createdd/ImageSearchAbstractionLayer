@@ -10,7 +10,7 @@ Created by Daniel Deutsch
 # FreeCodeCamp API Projects: Image Search Abstraction Layer
 
 ##Watch it on Heroku:
--
+https://ddcreationstudios-imagesearch.herokuapp.com/
 ## User stories:
 1. I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
 2. I can paginate through the responses by adding a ?offset=2 parameter to the URL.
@@ -19,27 +19,26 @@ Created by Daniel Deutsch
 ## Example creation usage:
 
 ```js
--
+https://ddcreationstudios-imagesearch.herokuapp.com/search/code
+https://ddcreationstudios-imagesearch.herokuapp.com/search/code?offset=2
+https://ddcreationstudios-imagesearch.herokuapp.com/search/latest
 ```
 
 ## Example creation output:
 
 ```js
--
+{
+"url": "http://i.imgur.com/1k25qTQ.gif",
+"snippet": "A magical way to bypass the secret source code for Android phones and without the need to format mobile phone",
+"context": "https://imgur.com/1k25qTQ"
+}
+{
+"term": "code",
+"when": "2016-12-03T10:14:34.971Z"
+},
 
 ```
 
-## Usage:
-
-```
--
-```
-
-### Will redirect to:
-
-```
--
-```
 
 
 #####Thx to Michael Lefkowitz for providing help
