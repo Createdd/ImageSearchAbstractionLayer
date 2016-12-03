@@ -1,6 +1,3 @@
-/* jshint node: true */
-/*jshint esversion: 6 */
-
 const express=require("express");
 const router=express.Router();//establish routing middleware
 const imgur=require("../services/imgur");//load the imgur.js file
