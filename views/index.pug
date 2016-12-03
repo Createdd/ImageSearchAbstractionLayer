@@ -1,0 +1,22 @@
+
+html
+ head
+   title ImageSearchAbstractionLayer
+   link(href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet")
+ body(style={color: 'white', background: 'black',  margin: '3em', 'font-family':'Comfortaa'})
+   h1 User stories:
+   ol
+     li I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
+     li I can paginate through the responses by adding a ?offset=2 parameter to the URL.
+     li I can get a list of the most recently submitted search strings.
+   h1 Example creation usage:
+   h4
+     ul
+       li https://ddcreationstudios-imagesearch.herokuapp.com/search/code
+       li https://ddcreationstudios-imagesearch.herokuapp.com/search/code?offset=2
+       li https://ddcreationstudios-imagesearch.herokuapp.com/latest
+   h1 Example creation output:
+   p Search:
+   p { "url": "http://i.imgur.com/1k25qTQ.gif", "snippet": "A magical way to bypass the secret source code for Android phones and without the need to format mobile phone", "context": "https://imgur.com/1k25qTQ" }
+    p Latest:
+    p { "term": "code", "when": "2016-12-03T10:14:34.971Z" }
